@@ -31,32 +31,29 @@ const Materials = () => {
     {
       kind: 'Slides',
       title: 'Slide deck',
-      sub: 'Presentation slides — coming soon',
-      meta: 'add link →',
-      href: '#',
+      sub: 'Presentation slides · BHSE 2026',
+      meta: 'PDF · slide deck',
+      href: 'uploads/BHSE Slides 2026.pdf',
       tag: 'PRESENTATION',
-      ext: 'PPT',
-      placeholder: true,
+      ext: 'PDF',
     },
     {
       kind: 'Quad',
       title: 'Quad chart',
-      sub: 'One-page summary diagram — coming soon',
-      meta: 'add link →',
-      href: '#',
+      sub: 'One-page summary diagram · Baldursson 2026',
+      meta: 'PDF · 1 pp',
+      href: 'uploads/Genius Quad 26 Jon Baldursson.pdf',
       tag: 'OVERVIEW',
       ext: 'PDF',
-      placeholder: true,
     },
     {
       kind: 'Code',
       title: 'Pipeline source',
       sub: 'chemoinformatics → fragment_filter → docking_dual',
-      meta: 'add repo →',
-      href: '#',
+      meta: 'github.com/sugenej →',
+      href: 'https://github.com/sugenej/Opioid-Safety-Project',
       tag: 'CODE',
       ext: 'GIT',
-      placeholder: true,
     },
   ];
 
@@ -138,12 +135,9 @@ const Materials = () => {
             borderRadius: 6, fontSize: 13, color: 'var(--fg-1)', lineHeight: 1.7,
           }}>
             Unpublished work — full pipeline source available on GitHub.
-            <a href="#" className="mono" style={{ color: 'var(--accent)', marginLeft: 8 }}>
-              github.com/your-handle/opioid-safety →
+            <a href="https://github.com/sugenej/Opioid-Safety-Project" className="mono" style={{ color: 'var(--accent)', marginLeft: 8 }} target="_blank" rel="noreferrer">
+              github.com/sugenej/Opioid-Safety-Project →
             </a>
-            <div className="mono" style={{ fontSize: 11, color: 'var(--fg-3)', marginTop: 8 }}>
-              swap in real link when ready
-            </div>
           </div>
         </div>
       </div>
